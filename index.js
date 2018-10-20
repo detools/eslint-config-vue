@@ -24,6 +24,7 @@ module.exports = {
       // https://github.com/eslint/eslint/issues/7809
       functions: 'never',
     }],
+    'eol-last': 'off',
     'function-paren-newline': ['off'],
     'global-require': 'off',
     'indent': ['error', 2, { SwitchCase: 1 }],
