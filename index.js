@@ -14,4 +14,7 @@ module.exports = {
   plugins: [
     'vue',
   ],
+  rules: {
+    'no-param-reassign': 'off',
+  },
 }
