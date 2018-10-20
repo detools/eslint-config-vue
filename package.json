@@ -1,0 +1,33 @@
+{
+  "name": "@detools/eslint-config-vue",
+  "version": "1.0.0",
+  "description": "Eslint Shared Config for Vue based on AirBnB Styleguide",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/detools/eslint-config-vue.git"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "vue"
+  ],
+  "author": "Anton Kuznetsov <isnifer@gmail.com> (https://github.com/isnifer)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/detools/eslint-config-vue/issues"
+  },
+  "homepage": "https://github.com/detools/eslint-config-vue#readme",
+  "dependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-vue": "^5.0.0-beta.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.7.0"
+  },
+  "peerDependencies": {
+    "eslint": "^5.7.0"
+  }
+}
