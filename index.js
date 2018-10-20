@@ -43,5 +43,6 @@ module.exports = {
     'quote-props': ['error', 'consistent-as-needed'],
     'semi': ['error', 'never'],
     'import/no-unresolved': 'off',
+    'import/no-extraneous-dependencies': 'off',
   },
 }
