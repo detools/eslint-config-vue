@@ -1,6 +1,6 @@
 {
   "name": "@detools/eslint-config-vue",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Eslint Shared Config for Vue based on AirBnB Styleguide",
   "main": "index.js",
   "repository": {
