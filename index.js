@@ -15,6 +15,7 @@ module.exports = {
     'vue',
   ],
   rules: {
+    'arrow-parens': ['error', 'as-needed'],
     'comma-dangle': ['error', {
       arrays: 'always-multiline',
       objects: 'always-multiline',
