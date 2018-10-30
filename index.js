@@ -29,6 +29,7 @@ module.exports = {
     'function-paren-newline': ['off'],
     'global-require': 'off',
     'indent': ['error', 2, { SwitchCase: 1 }],
+    'implicit-arrow-linebreak': 'off',
     'max-len': [2, 100],
     'no-await-in-loop': 'off',
     'no-confusing-arrow': 'off',
