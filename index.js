@@ -38,6 +38,7 @@ module.exports = {
     'no-restricted-syntax': ['error', 'ForInStatement', 'LabeledStatement', 'WithStatement'],
     'no-return-assign': 'off',
     'no-unused-expressions': ['error', { allowTernary: true }],
+    'no-unused-vars': ['error', { argsIgnorePattern: '^h$' }],
     'no-use-before-define': 'off',
     'object-curly-newline': 'off',
     'operator-linebreak': 'off',
