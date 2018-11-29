@@ -43,7 +43,7 @@ module.exports = {
     'object-curly-newline': 'off',
     'operator-linebreak': 'off',
     'prefer-promise-reject-errors': 'off',
-    'quote-props': ['error', 'consistent-as-needed'],
+    'quote-props': ['error', 'as-needed'],
     'semi': ['error', 'never'],
     'import/no-unresolved': 'off',
     'import/no-extraneous-dependencies': 'off',
