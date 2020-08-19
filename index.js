@@ -1,31 +1,29 @@
 module.exports = {
-  extends: [
-    'eslint-config-airbnb-base',
-    'plugin:vue/essential',
-  ],
+  extends: ['eslint-config-airbnb-base', 'plugin:vue/essential'],
   env: {
     browser: true,
     node: true,
     es6: true,
   },
-  plugins: [
-    'vue',
-  ],
+  plugins: ['vue'],
   rules: {
     'arrow-parens': ['error', 'as-needed'],
-    'comma-dangle': ['error', {
-      arrays: 'always-multiline',
-      objects: 'always-multiline',
-      imports: 'always-multiline',
-      exports: 'always-multiline',
-      // Trailing commas in functions are allowed only in ES8
-      // https://github.com/eslint/eslint/issues/7809
-      functions: 'never',
-    }],
+    'comma-dangle': [
+      'error',
+      {
+        arrays: 'always-multiline',
+        objects: 'always-multiline',
+        imports: 'always-multiline',
+        exports: 'always-multiline',
+        // Trailing commas in functions are allowed only in ES8
+        // https://github.com/eslint/eslint/issues/7809
+        functions: 'never',
+      },
+    ],
     'eol-last': 'off',
     'function-paren-newline': ['off'],
     'global-require': 'off',
-    'indent': ['error', 2, { SwitchCase: 1 }],
+    indent: ['error', 2, { SwitchCase: 1 }],
     'implicit-arrow-linebreak': 'off',
     'max-len': [2, 100],
     'no-await-in-loop': 'off',
@@ -41,7 +39,7 @@ module.exports = {
     'operator-linebreak': 'off',
     'prefer-promise-reject-errors': 'off',
     'quote-props': ['error', 'as-needed'],
-    'semi': ['error', 'never'],
+    semi: ['error', 'never'],
     'import/no-unresolved': 'off',
     'import/no-extraneous-dependencies': 'off',
   },
