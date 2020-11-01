@@ -1,9 +1,10 @@
 # eslint-config-vue
-Eslint Shared Config for Vue based on AirBnB Styleguide
 
+Eslint Shared Config for Vue based on AirBnB Styleguide
 
 ## Changelog
 
+2.4.0 — Parser changed from babel-eslint to @babel/eslint-parser
 2.3.0 — Moved to eslint-plugin-vue@next
 2.2.0 — Moved to ESLint 7
 2.1.0 — Updated dependencies

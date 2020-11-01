@@ -1,6 +1,6 @@
 {
   "name": "@detools/eslint-config-vue",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "description": "Eslint Shared Config for Vue based on AirBnB Styleguide",
   "main": "index.js",
   "repository": {
@@ -19,16 +19,17 @@
   },
   "homepage": "https://github.com/detools/eslint-config-vue#readme",
   "dependencies": {
-    "babel-eslint": "^11.0.0-beta.2",
+    "@babel/eslint-parser": "^7.12.1",
     "eslint-config-airbnb-base": "^14.2.0",
-    "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-vue": "^7.0.0-beta.3"
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-vue": "^7.1.0"
   },
   "devDependencies": {
-    "eslint": "^7.7.0"
+    "eslint": "7.12.1",
+    "prettier": "^2.1.2"
   },
   "peerDependencies": {
-    "eslint": "^7.7.0"
+    "eslint": "^7.12.1"
   },
   "scripts": {
     "pub": "npm publish ./ --access public"
