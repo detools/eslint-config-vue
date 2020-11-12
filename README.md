@@ -4,6 +4,7 @@ Eslint Shared Config for Vue based on AirBnB Styleguide
 
 ## Changelog
 
+- 2.4.1 — Fixed annoying error about range by turning off a couple of rules
 - 2.4.0 — Parser changed from babel-eslint to @babel/eslint-parser
 - 2.3.0 — Moved to eslint-plugin-vue@next
 - 2.2.0 — Moved to ESLint 7

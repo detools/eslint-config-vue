@@ -1,5 +1,12 @@
 module.exports = {
   extends: ['eslint-config-airbnb-base', 'plugin:vue/essential'],
+  parser: 'vue-eslint-parser',
+  parserOptions: {
+    parser: '@babel/eslint-parser',
+    sourceType: 'module',
+    ecmaVersion: 2020,
+    allowImportExportEverywhere: false,
+  },
   env: {
     browser: true,
     node: true,
@@ -20,10 +27,12 @@ module.exports = {
         functions: 'never',
       },
     ],
+    indent: 'off', // This rule introduces an error in Vue projects since eslint 7
+    'template-curly-spacing': 'off', // This rule introduces an error in Vue projects since eslint 7
+    'consistent-return': 'off',
     'eol-last': 'off',
     'function-paren-newline': ['off'],
     'global-require': 'off',
-    indent: ['error', 2, { SwitchCase: 1 }],
     'implicit-arrow-linebreak': 'off',
     'max-len': [2, 100],
     'no-await-in-loop': 'off',
@@ -40,7 +49,23 @@ module.exports = {
     'prefer-promise-reject-errors': 'off',
     'quote-props': ['error', 'as-needed'],
     semi: ['error', 'never'],
-    'import/no-unresolved': 'off',
+    'import/extensions': 'off',
     'import/no-extraneous-dependencies': 'off',
+    'import/no-named-as-default': 'off',
+    'import/no-named-as-default-member': 'off',
+    'import/no-unresolved': 'off',
+  },
+  globals: {
+    jest: false,
+    describe: false,
+    it: false,
+    test: false,
+    expect: false,
+    beforeAll: false,
+    beforeEach: false,
+    afterAll: false,
+    afterEach: false,
+    cy: false,
+    context: false,
   },
 }
