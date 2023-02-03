@@ -54,6 +54,7 @@ module.exports = {
     'import/no-named-as-default': 'off',
     'import/no-named-as-default-member': 'off',
     'import/no-unresolved': 'off',
+    'vue/multi-word-component-names': 'off',
   },
   globals: {
     jest: false,
